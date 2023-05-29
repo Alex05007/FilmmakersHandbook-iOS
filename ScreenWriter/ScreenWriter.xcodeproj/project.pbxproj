@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA1AED702A052D5B009F5E5C /* OrentaionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1AED6F2A052D5B009F5E5C /* OrentaionManager.swift */; };
 		FAB5C92029C4B1C600510C76 /* ScreenWriterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5C91F29C4B1C600510C76 /* ScreenWriterApp.swift */; };
 		FAB5C92229C4B1C600510C76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB5C92129C4B1C600510C76 /* ContentView.swift */; };
 		FAB5C92429C4B1C700510C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB5C92329C4B1C700510C76 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA1AED6F2A052D5B009F5E5C /* OrentaionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrentaionManager.swift; sourceTree = "<group>"; };
 		FAB5C91C29C4B1C600510C76 /* ScreenWriter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreenWriter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB5C91F29C4B1C600510C76 /* ScreenWriterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenWriterApp.swift; sourceTree = "<group>"; };
 		FAB5C92129C4B1C600510C76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		FAB5C91E29C4B1C600510C76 /* ScreenWriter */ = {
 			isa = PBXGroup;
 			children = (
+				FA1AED6F2A052D5B009F5E5C /* OrentaionManager.swift */,
 				FAB5C91F29C4B1C600510C76 /* ScreenWriterApp.swift */,
 				FAB5C92129C4B1C600510C76 /* ContentView.swift */,
 				FAB5C92D29C4B1EF00510C76 /* NetworkManager.swift */,
@@ -143,6 +146,7 @@
 				FAB5C92E29C4B1EF00510C76 /* NetworkManager.swift in Sources */,
 				FAB5C92229C4B1C600510C76 /* ContentView.swift in Sources */,
 				FAB5C92029C4B1C600510C76 /* ScreenWriterApp.swift in Sources */,
+				FA1AED702A052D5B009F5E5C /* OrentaionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,17 +278,20 @@
 				DEVELOPMENT_TEAM = G2A385699M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenWriter;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.myds.gnets.ScreenWriter;
+				PRODUCT_BUNDLE_IDENTIFIER = me.myds.gnets.filmmakershandbook.screenwriter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -303,17 +310,20 @@
 				DEVELOPMENT_TEAM = G2A385699M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ScreenWriter;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = me.myds.gnets.ScreenWriter;
+				PRODUCT_BUNDLE_IDENTIFIER = me.myds.gnets.filmmakershandbook.screenwriter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
